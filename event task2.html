@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+
+	<link rel="stylesheet" href="../css/event task2.css">
+</head>
+<body>
+
+	<div id="maincontainer">
+
+		<h1>CREATE LOGIN</h1>
+
+	<div class="parentdiv">
+
+		<div class="child">
+
+			<label for="uname">Enter your name: </label>
+			<input type="text" id="uname" placeholder="Enter Name here" required>
+		</div>
+
+		<p id="p1" class="errormes" style="display: none;">name is required*</p>
+
+	</div>
+
+
+	<div class="parentdiv">
+
+		<div class="child">
+			<label for="umail">Student E-mail : </label>
+			<input type="email" id="umail" placeholder="Enter mail-id here" required>
+		</div>
+
+		<p id="p2" class="errormes" style="display: none;"> Email-id is required*</p>
+		<p id="p21" class="errormes" style="display: none;"> Invalid E-mail format*</p>
+		<p id="p22" class="errormes" style="display: none;"> Valid E-mail format*</p>
+
+	</div>
+
+
+	<div class="parentdiv">
+
+		<div class="child">
+			<label for="newpw">New Password : </label>
+			<input type="password" id="newpw" placeholder="Enter New Password" required>
+		</div>
+
+		
+
+	</div>
+
+	<div class="parentdiv">
+
+		<div class="child">
+
+			<label for="conpw">Confirm Password : </label>
+			
+			<input type="password" id="conpw" placeholder="Enter Confirm Password"  required>
+			<span id="eyeopen"><i class="fa-solid fa-eye" id="eyeicon"></i>
+			</span>
+		<script ></script>
+		
+	
+
+		</div>
+		
+
+		<p id="p4" class="errormes" style="display: none;">Password does not match!*</p>
+
+		<p id="p41"class="errormes" style="display: none;">Password must contain only numbers*</p>
+
+		<p id="p411" class="errormes" style="display: none;">Password matches!</p>
+	
+
+	</div>
+
+	<button type="button" id="submit" >SUBMIT</button>
+		<br>
+	<br>
+		<a href="#" id="anchor">Already have an account! Log In!!!</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	<script src="../javascript/event task2.js"></script>
+</body>
+</html>
